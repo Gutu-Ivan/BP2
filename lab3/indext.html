@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lab 3_1</title>
+</head>
+
+<body>
+
+  <p>
+    Un număr de N copii stau așezați în cerc și joacă următorul joc: se numără începând de la copilul X un număr de Z
+    copii, cel care este cel cu numărul Z este eliminat, după care se continuă numărătoarea de la următorul. Jocul se
+    termină atunci când va rămâne doar un singur copil în cerc. Să se scrie un program care să simuleze aceste operații
+    ale jocului tipărind numele copiilor care sunt eliminați în ordinea operației și la final pe cel câștigător
+  </p>
+  <div>
+    <input type="text" id="playerName" placeholder="Enter name (by enter)">
+    <input type="number" id="startFrom" placeholder="Enter start position">
+    <input type="number" id="finishWith" placeholder="Enter how many rotations">
+    <button id="startGame">Start game</button>
+  </div>
+  <ul id="playersList"></ul>
+  <ul id="losers"></ul>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
